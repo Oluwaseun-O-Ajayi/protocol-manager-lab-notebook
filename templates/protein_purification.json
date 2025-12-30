@@ -1,0 +1,72 @@
+{
+  "name": "His-Tag Protein Purification",
+  "description": "Purification of His-tagged proteins using Ni-NTA affinity chromatography",
+  "steps": [
+    {
+      "action": "Harvest cells by centrifugation",
+      "duration": "15 min",
+      "temperature": "4°C",
+      "notes": "5000 rpm, collect pellet"
+    },
+    {
+      "action": "Resuspend pellet in lysis buffer",
+      "notes": "Add protease inhibitors"
+    },
+    {
+      "action": "Lyse cells by sonication",
+      "duration": "5 min",
+      "notes": "Keep on ice, pulse 5 sec on/10 sec off"
+    },
+    {
+      "action": "Centrifuge lysate to remove debris",
+      "duration": "30 min",
+      "temperature": "4°C",
+      "notes": "13,000 rpm, collect supernatant"
+    },
+    {
+      "action": "Equilibrate Ni-NTA column with binding buffer",
+      "notes": "Use 5 column volumes"
+    },
+    {
+      "action": "Load cleared lysate onto column",
+      "notes": "Flow rate: 1 mL/min"
+    },
+    {
+      "action": "Wash column with wash buffer",
+      "notes": "Use 10 column volumes, collect flow-through"
+    },
+    {
+      "action": "Elute protein with elution buffer",
+      "notes": "Collect 1 mL fractions, typically 5-10 fractions"
+    },
+    {
+      "action": "Analyze fractions by SDS-PAGE",
+      "notes": "Pool fractions containing pure protein"
+    },
+    {
+      "action": "Dialyze or buffer exchange if needed",
+      "temperature": "4°C",
+      "notes": "Into storage buffer"
+    },
+    {
+      "action": "Determine protein concentration",
+      "notes": "Use Bradford or BCA assay"
+    },
+    {
+      "action": "Aliquot and store at -80°C"
+    }
+  ],
+  "materials": [
+    "Lysis buffer (50 mM Tris-HCl pH 7.5, 300 mM NaCl, 10 mM imidazole)",
+    "Protease inhibitor cocktail",
+    "Ni-NTA resin",
+    "Binding buffer (50 mM Tris-HCl pH 7.5, 300 mM NaCl, 20 mM imidazole)",
+    "Wash buffer (50 mM Tris-HCl pH 7.5, 300 mM NaCl, 50 mM imidazole)",
+    "Elution buffer (50 mM Tris-HCl pH 7.5, 300 mM NaCl, 250 mM imidazole)",
+    "Sonicator",
+    "Chromatography column",
+    "Centrifuge tubes"
+  ],
+  "notes": "Keep all buffers and samples cold throughout purification. Store purified protein with 10% glycerol for long-term stability.",
+  "tags": ["Protein Purification", "His-Tag", "Chromatography", "Biochemistry"]
+}

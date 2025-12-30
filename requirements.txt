@@ -1,0 +1,52 @@
+pandas>=1.5.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+```
+
+## **.gitignore:**
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Experiment data
+experiments/*.json
+!experiments/README.md
+
+# Protocols
+protocols/*.json
+!protocols/README.md
+
+# Samples
+samples/*.json
+!samples/README.md
+
+# Reports
+reports/*.txt
+reports/*.pdf
+!reports/README.md
+
+# Data
+data/*.csv
+data/*.json
+!data/README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

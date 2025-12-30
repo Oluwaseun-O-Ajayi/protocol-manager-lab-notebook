@@ -1,0 +1,57 @@
+{
+  "name": "Standard PCR Protocol",
+  "description": "Standard protocol for polymerase chain reaction amplification",
+  "steps": [
+    {
+      "action": "Prepare PCR master mix on ice",
+      "duration": "10 min",
+      "notes": "Keep all reagents cold"
+    },
+    {
+      "action": "Add template DNA and primers",
+      "notes": "Final concentrations: 0.5 µM primers, 10-100 ng template"
+    },
+    {
+      "action": "Initial denaturation",
+      "temperature": "95°C",
+      "duration": "3 min"
+    },
+    {
+      "action": "Denaturation",
+      "temperature": "95°C",
+      "duration": "30 sec",
+      "notes": "Begin cycling - 30 cycles total"
+    },
+    {
+      "action": "Annealing",
+      "temperature": "55°C",
+      "duration": "30 sec",
+      "notes": "Adjust temperature based on primers"
+    },
+    {
+      "action": "Extension",
+      "temperature": "72°C",
+      "duration": "1 min/kb",
+      "notes": "Time depends on product length"
+    },
+    {
+      "action": "Final extension",
+      "temperature": "72°C",
+      "duration": "5 min"
+    },
+    {
+      "action": "Hold at 4°C until analysis"
+    }
+  ],
+  "materials": [
+    "PCR master mix or polymerase",
+    "Forward primer (10 µM)",
+    "Reverse primer (10 µM)",
+    "Template DNA",
+    "Nuclease-free water",
+    "PCR tubes or plate",
+    "Thermal cycler"
+  ],
+  "notes": "Always include positive and negative controls. Store product at -20°C if not analyzing immediately.",
+  "tags": ["PCR", "Molecular Biology", "DNA Amplification"]
+}
